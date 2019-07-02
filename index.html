@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modelo de Exercícios</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <p>ANO DE NASCIMENTO: <input type="number" name="txtano" id="txtano" min="0"></p>
+        <p>SEXO:
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+
+        <p>
+        <input type="button" value="VERIFICAR!" onclick="verificar()">
+        </p>
+
+        <div id="resultado">
+        PREENCHA OS DADOS ACIMA PARA VER O RESULTADO!
+        </div>
+    </section>
+
+    <footer>
+        &copy; AndersonMarlonDesign
+    </footer>
+
+</body>
+</html>
